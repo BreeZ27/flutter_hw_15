@@ -102,7 +102,7 @@ ElevatedButtonThemeData _elevatedbuttonTheme(ElevatedButtonThemeData base) {
 
 TabBarTheme _tabBarTheme(TabBarTheme base) {
   return base.copyWith(
-    labelStyle: TextStyle(fontSize: 20),
+    labelStyle: const TextStyle(fontSize: 20),
     labelColor: myblack,
   );
 }
